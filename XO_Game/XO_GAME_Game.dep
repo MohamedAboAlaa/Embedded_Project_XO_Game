@@ -1,0 +1,62 @@
+Dependencies for Project 'XO_GAME', Target 'Game': (DO NOT MODIFY !)
+F (.\Drivers_Source\Sound.c)(0x676862FC)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (Drivers_Source\../Drivers_Header/Sound.h)(0x67685001)
+I (Drivers_Source\../Drivers_Header/DAC.h)(0x67684E73)
+I (Drivers_Source\../Drivers_Header/tm4c123gh6pm.h)(0x6751E9DF)
+F (.\Drivers_Source\DAC.c)(0x676862E6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (Drivers_Source\../Drivers_Header/DAC.h)(0x67684E73)
+I (Drivers_Source\../Drivers_Header/tm4c123gh6pm.h)(0x6751E9DF)
+F (.\Drivers_Source\main.c)(0x6768661E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (Drivers_Source\../Drivers_Header/tm4c123gh6pm.h)(0x6751E9DF)
+I (Drivers_Source\../Drivers_Header/Nokia5110.h)(0x676866F3)
+I (Drivers_Source\../Drivers_Header/TExaS.h)(0x6751E9DF)
+I (Drivers_Source\../Drivers_Header/GPIO.h)(0x67686604)
+I (Drivers_Source\../Drivers_Header/../Drivers_Header/Timer.h)(0x6768656E)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (Drivers_Source\../Drivers_Header/Game.h)(0x67681456)
+I (Drivers_Source\../Drivers_Header/PLL.h)(0x52636736)
+I (Drivers_Source\../Drivers_Header/ADC.h)(0x676813FA)
+I (Drivers_Source\../Drivers_Header/UART.h)(0x676866A3)
+F (.\Drivers_Source\Game.c)(0x676864A7)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\game.o --omf_browse .\game.crf --depend .\game.d)
+I (Drivers_Source\../Drivers_Header/tm4c123gh6pm.h)(0x6751E9DF)
+I (Drivers_Source\../Drivers_Header/Nokia5110.h)(0x676866F3)
+I (Drivers_Source\../Drivers_Header/TExaS.h)(0x6751E9DF)
+I (Drivers_Source\../Drivers_Header/GameArt.h)(0x67656A57)
+I (Drivers_Source\../Drivers_Header/Game.h)(0x67681456)
+I (Drivers_Source\../Drivers_Header/Timer.h)(0x6768656E)
+I (Drivers_Source\../Drivers_Header/ADC.h)(0x676813FA)
+I (Drivers_Source\../Drivers_Header/UART.h)(0x676866A3)
+I (Drivers_Source\../Drivers_Header/Sound.h)(0x67685001)
+F (.\Drivers_Source\UART.c)(0x67686657)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (Drivers_Source\../Drivers_Header/tm4c123gh6pm.h)(0x6751E9DF)
+I (Drivers_Source\../Drivers_Header/UART.h)(0x676866A3)
+F (.\Drivers_Source\Timer.c)(0x6768665F)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (Drivers_Source\../Drivers_Header/tm4c123gh6pm.h)(0x6751E9DF)
+I (Drivers_Source\../Drivers_Header/Timer.h)(0x6768656E)
+F (.\Drivers_Source\GPIO.c)(0x676865DE)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (Drivers_Source\../Drivers_Header/GPIO.h)(0x67686604)
+I (Drivers_Source\../Drivers_Header/../Drivers_Header/tm4c123gh6pm.h)(0x6751E9DF)
+I (Drivers_Source\../Drivers_Header/../Drivers_Header/Timer.h)(0x6768656E)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+F (.\Drivers_Source\ADC.c)(0x6768664A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (Drivers_Source\../Drivers_Header/tm4c123gh6pm.h)(0x6751E9DF)
+I (Drivers_Source\../Drivers_Header/PLL.h)(0x52636736)
+I (Drivers_Source\../Drivers_Header/ADC.h)(0x676813FA)
+F (.\Drivers_Source\Nokia5110.c)(0x676864E7)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Drivers_Source\../Drivers_Header/Nokia5110.h)(0x676866F3)
+F (.\Drivers_Source\TExaS.c)(0x676864BC)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (Drivers_Source\../Drivers_Header/TExaS.h)(0x6751E9DF)
+F (.\Drivers_Source\PLL.c)(0x676864CB)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (Drivers_Source\../Drivers_Header/PLL.h)(0x52636736)
+F (.\Drivers_Header\Sound.h)(0x67685001)()
+F (.\Drivers_Header\DAC.h)(0x67684E73)()
+F (.\Drivers_Header\UART.h)(0x676866A3)()
+F (.\Drivers_Header\Timer.h)(0x6768656E)()
+F (.\Drivers_Header\Game.h)(0x67681456)()
+F (.\Drivers_Header\ADC.h)(0x676813FA)()
+F (.\Drivers_Header\GPIO.h)(0x67686604)()
+F (.\Drivers_Header\GameArt.h)(0x67656A57)()
+F (.\Drivers_Header\Nokia5110.h)(0x676866F3)()
+F (.\Drivers_Header\TExaS.h)(0x6751E9DF)()
+F (.\Drivers_Header\tm4c123gh6pm.h)(0x6751E9DF)()
+F (.\Drivers_Header\PLL.h)(0x52636736)()

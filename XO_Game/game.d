@@ -1,0 +1,10 @@
+.\game.o: Drivers_Source\Game.c
+.\game.o: Drivers_Source\../Drivers_Header/tm4c123gh6pm.h
+.\game.o: Drivers_Source\../Drivers_Header/Nokia5110.h
+.\game.o: Drivers_Source\../Drivers_Header/TExaS.h
+.\game.o: Drivers_Source\../Drivers_Header/GameArt.h
+.\game.o: Drivers_Source\../Drivers_Header/Game.h
+.\game.o: Drivers_Source\../Drivers_Header/Timer.h
+.\game.o: Drivers_Source\../Drivers_Header/ADC.h
+.\game.o: Drivers_Source\../Drivers_Header/UART.h
+.\game.o: Drivers_Source\../Drivers_Header/Sound.h
