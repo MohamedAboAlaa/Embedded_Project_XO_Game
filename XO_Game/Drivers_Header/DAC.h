@@ -1,9 +1,9 @@
 /******************************************************************************
- * Module: UART
+ * Module: DAC
  *
- * File Name: UART.h
+ * File Name: DAC.h
  *
- * Description: Header file for UART functionality.
+ * Description: Header file for DAC functionality.
  *
  * Authors: El-Osood El-Mefrhda
  ******************************************************************************/
